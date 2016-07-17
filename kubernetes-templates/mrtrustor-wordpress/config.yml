@@ -2,7 +2,7 @@ name: "MrTrustor's Wordpress"
 description: |
   This is the catalog entry used during
   my Rancher hands-on.
-version: 1.0.0
+version: 4.4-0
 category: blogging
 maintainer: Theo Chamley
 license: WTFPL

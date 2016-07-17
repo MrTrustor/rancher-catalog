@@ -1,6 +1,6 @@
 .catalog:
   name: "K8s MrTrustor Wordpress"
-  version: "1.0.0"
+  version: "4.4-0"
   description: ""
   questions:
     - variable: "WP_PASSWORD"
