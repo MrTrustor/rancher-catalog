@@ -1,0 +1,11 @@
+wordpress:
+  image: wordpress:4.5
+  links:
+    - db:mysql
+  ports:
+    - ${public_port}:80
+
+db:
+  image: mariadb
+  environment:
+    MYSQL_ROOT_PASSWORD: ${mysql_password}
