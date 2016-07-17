@@ -9,3 +9,10 @@ db:
   image: mariadb
   environment:
     MYSQL_ROOT_PASSWORD: ${mysql_password}
+
+wp-endpoint:
+  image: rancher/load-balancer-service
+  ports:
+    - 80:80
+  links:
+    - wordpress:wordpress
